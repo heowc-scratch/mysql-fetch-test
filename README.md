@@ -50,11 +50,11 @@
 
 ### fetch 미변경
 
-![alt img]()
+![alt img](img/no-fetch-by-wireshark.png)
 
-### fetch 변경 (Integer.MIN_VALUE, 5, 10, ... , 5000)
+### fetch 변경 (5)
 
-![alt img]()
+![alt img](img/fetch-5-by-wireshark.png)
 
 - `net_buffer_length` Default 16384 bytes
 - `max_allowed_packet` Default 16777216 bytes (16M)
