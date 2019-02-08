@@ -80,15 +80,15 @@ public class ApplicationTests {
 	@Parameters
 	public static Collection<Integer[]> parameters() {
 		List<Integer[]> providers = new ArrayList<>();
-//		providers.add(new Integer[] { Integer.MIN_VALUE });
+		providers.add(new Integer[] { Integer.MIN_VALUE });
 		providers.add(new Integer[] { 5 });
-//		providers.add(new Integer[] { 10 });
-//		providers.add(new Integer[] { 50 });
-//		providers.add(new Integer[] { 100 });
-//		providers.add(new Integer[] { 500 });
-//		providers.add(new Integer[] { 1000 });
-//		providers.add(new Integer[] { 2500 });
-//		providers.add(new Integer[] { 5000 });
+		providers.add(new Integer[] { 10 });
+		providers.add(new Integer[] { 50 });
+		providers.add(new Integer[] { 100 });
+		providers.add(new Integer[] { 500 });
+		providers.add(new Integer[] { 1000 });
+		providers.add(new Integer[] { 2500 });
+		providers.add(new Integer[] { 5000 });
 		return providers;
 	}
 }
