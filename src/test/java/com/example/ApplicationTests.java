@@ -25,7 +25,7 @@ import org.springframework.util.StopWatch;
 public class ApplicationTests {
 
 	private JdbcTemplate jdbcTemplate = new JdbcTemplate(DataSourceBuilder.create()
-			.url("jdbc:mysql://localhost:3306/test?sslMode=DISABLED")
+			.url("jdbc:mysql://localhost:3306/test?useCursorFetch=true&sslMode=DISABLED")
 			.username("root")
 			.password("root")
 			.build());
