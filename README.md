@@ -1,4 +1,4 @@
-# `ResultSet`의 `fetchSize` 변경
+# `fetchSize` 변경
 
 ## 스펙
 
